@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/irfan/Documents/Juara Coding Batch 17/jc-testing/src/test/java/com/juaracoding/CalculatorTesting.java">
+        <classes>
+            <class name="com.juaracoding.CalculatorTesting">
+                <methods>
+                    <include name="testingAdd"/>
+                    <include name="testSubtract"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/irfan/Documents/Juara Coding Batch 17/jc-testing/src/test/java/com/juaracoding/EmployeeTest.java">
+        <classes>
+            <class name="com.juaracoding.EmployeeTest">
+                <methods>
+                    <include name="testGetName"/>
+                    <include name="testGetDepartment"/>
+                    <include name="testGetSalary"/>
+                    <include name="testSetSalaryNegative"/>
+                    <include name="testCalculateTax"/>
+                    <include name="testCalculateTaxNegative"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/irfan/Documents/Juara Coding Batch 17/jc-testing/src/test/java/com/juaracoding/LoginTest.java">
+        <classes>
+            <class name="com.juaracoding.LoginTest">
+                <methods>
+                    <include name="testisLogin"/>
+                    <include name="testMessageLoginSuccessful"/>
+                    <include name="testMessageLoginInvalid"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/irfan/Documents/Juara Coding Batch 17/jc-testing/src/test/java/com/juaracoding/ProcedureTest.java">
+        <classes>
+            <class name="com.juaracoding.ProcedureTest">
+                <methods>
+                    <include name="testOne"/>
+                    <include name="testTwo"/>
+                    <include name="testThree"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
